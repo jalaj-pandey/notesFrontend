@@ -13,10 +13,10 @@ const Footer = () => {
                         </div>
                         <div className="media-icons">
                             <Link to="https://www.facebook.com/jalajpandey15"><i className="fab fa-facebook-f"></i></Link>
-                            <Link to="/"><i className="fab fa-twitter"></i></Link>
-                            <Link to="/"><i className="fab fa-instagram"></i></Link>
-                            <Link to="/"><i className="fab fa-linkedin-in"></i></Link>
-                            <Link to="/"><i className="fab fa-youtube"></i></Link>
+                            <Link to="https://twitter.com/thejalajpandey"><i className="fab fa-twitter"></i></Link>
+                            <Link to="https://www.instagram.com/thejalajpandey/"><i className="fab fa-instagram"></i></Link>
+                            <Link to="https://www.linkedin.com/in/jalaj-pandey/"><i className="fab fa-linkedin-in"></i></Link>
+                            <Link to="https://www.youtube.com/@JalajPandey/"><i className="fab fa-youtube"></i></Link>
                         </div>
                     </div>
                     <div className="link-boxes">
@@ -34,7 +34,7 @@ const Footer = () => {
                         <ul className="box">
                             <li className="link_name">Account</li>
                             <li><Link to="/login">Sign-in</Link></li>
-                            <li><Link to="/signin">Join Free</Link></li>
+                            <li><Link to="/signup">Join Free</Link></li>
                         </ul>
                         <ul className="box">
                             <li className="link_name">Top Categories</li>
