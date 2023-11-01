@@ -4,7 +4,7 @@ import '../styles/About.css'
 import awesome from '../images/about - awesome.jpeg'
 import login from '../images/about - awesome.svg'
 import jalaj from '../images/jalaj-dhoti.jpg'
-import jalajp from '../images/me.png'
+import jalajp from '../images/me.jpg'
 import { Link } from "react-router-dom";
 import { Button } from '@mui/material';
 
