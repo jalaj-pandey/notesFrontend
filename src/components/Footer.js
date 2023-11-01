@@ -12,7 +12,7 @@ const Footer = () => {
                             <span className="logo_name"><span style={{ color: "#2A8387" }}>Idea</span>Spotter</span>
                         </div>
                         <div className="media-icons">
-                            <Link to="/"><i className="fab fa-facebook-f"></i></Link>
+                            <Link to="https://www.facebook.com/jalajpandey15"><i className="fab fa-facebook-f"></i></Link>
                             <Link to="/"><i className="fab fa-twitter"></i></Link>
                             <Link to="/"><i className="fab fa-instagram"></i></Link>
                             <Link to="/"><i className="fab fa-linkedin-in"></i></Link>
