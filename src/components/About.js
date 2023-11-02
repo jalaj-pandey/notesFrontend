@@ -11,13 +11,13 @@ import { Button } from '@mui/material';
 
 
 const About = () => {
-  
-  return (
-    <div>
-      <div className="text-white aboutImg text-center">
+
+    return (
+        <div>
+            <div className="text-white aboutImg text-center">
                 <div className="note-img">
                     <h1 className="display-4">Empowering  Students</h1>
-                    <p style={{paddingRight: "30px"}}>An online web platform where you can create, edit, upload, delete your notes/information privately and securely without any disturbancee</p>
+                    <p style={{ paddingRight: "30px" }}>An online web platform where you can create, edit, upload, delete your notes/information privately and securely without any disturbancee</p>
                 </div>
             </div>
 
@@ -29,7 +29,7 @@ const About = () => {
                             you can also access your notes anywhere in your world, at anytime time . So dont forget to Create note because creating anything is always important
                         </p>
                         <div className="d-flex justify-content-center mt-2">
-                            <Button className='button' component={Link} to="/" variant="contained"  style={{ color: "White", textTransform: "none", fontFamily: "'Poppins', sans-serif", fontSize: "1.3rem" }}>Create New Note</Button>
+                            <Button className='button' component={Link} to="/" variant="contained" style={{ color: "White", textTransform: "none", fontFamily: "'Poppins', sans-serif", fontSize: "1.3rem" }}>Create New Note</Button>
                         </div>
                     </div>
                     <div className="col-md-6  mt-3">
@@ -55,29 +55,29 @@ const About = () => {
 
                 {/* About section */}
                 <div className="container mt-5 ">
-                <div className="row">
-                    <div className="col-md-6 d-flex flex-column justify-content-center">
-                        <h2 className="mb-3" style={{ fontWeight: "Bold" }}>About <span style={{ color: "#2A8387" }}>Jalaj Pandey</span> </h2>
-                        <p >Jalaj Pandey, a 22-year-old student, is currently dedicatedly pursuing his Master's in Computer Applications (MCA) from Kamla Nehru Institute of Technology (KNIT).
-What sets Jalaj apart is his enthusiasm for practical applications of his knowledge. His ability to think critically and apply his knowledge in creative ways has enabled him to develop projects that are not just academically sound but also have practical utility.
-                        </p>
-                        <div className="d-flex justify-content-center mt-2">
-                            <Button className='button' component={Link} to="https://jalajpandey.netlify.app/" variant="contained"  style={{ color: "White", textTransform: "none", fontFamily: "'Poppins', sans-serif", fontSize: "1.3rem" }}>More About Jalaj</Button>
+                    <div className="row">
+                        <div className="col-md-6 d-flex flex-column justify-content-center">
+                            <h2 className="mb-3" style={{ fontWeight: "Bold" }}>About <span style={{ color: "#2A8387" }}>Jalaj Pandey</span> </h2>
+                            <p >Jalaj Pandey, a 22-year-old student, is currently dedicatedly pursuing his Master's in Computer Applications (MCA) from Kamla Nehru Institute of Technology (KNIT).
+                                What sets Jalaj apart is his enthusiasm for practical applications of his knowledge. His ability to think critically and apply his knowledge in creative ways has enabled him to develop projects that are not just academically sound but also have practical utility.
+                            </p>
+                            <div className="d-flex justify-content-center mt-2">
+                                <Button className='button butb' component={Link} to="https://jalajpandey.netlify.app/" variant="contained" style={{ color: "White", textTransform: "none", fontFamily: "'Poppins', sans-serif", fontSize: "1.3rem" }}>More About Jalaj</Button>
+                            </div>
+                        </div>
+                        <div className="col-md-6 d-flex flex-column justify-content-center">
+                            <div className="d-flex justify-content-center mb-3 " >
+                                <img style={{ height: "20rem", scale: "1" }} className='img-fluid img-thumbnail img1' src={jalaj} alt="about-awesome" />
+                                <img style={{ height: "20rem", scale: "1" }} className='img-fluid img-rounded img2' src={jalajp} alt="about-awesome" />
+                            </div>
                         </div>
                     </div>
-                    <div className="col-md-6 d-flex flex-column justify-content-center">
-                    <div className="d-flex justify-content-center mb-3" >
-                        <img style={{height:"20rem", scale:"1"}} className='img-fluid img-thumbnail'  src={jalaj} alt="about-awesome" />
-                        <img style={{height:"20rem", scale:"1"}} className='img-fluid img-rounded'  src={jalajp} alt="about-awesome" />
-                    </div>
-                    </div>
+                    {/* End about section */}
                 </div>
-                {/* End about section */}
             </div>
+            <Footer />
         </div>
-      <Footer/>
-    </div>
-  )
+    )
 }
 
 export default About;

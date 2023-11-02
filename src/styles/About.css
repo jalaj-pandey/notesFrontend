@@ -27,8 +27,7 @@
     background-color: #F2F2F2;
     border-radius: 10px;
   }
-  
-  @media (max-width: 1000px) {
+  @media screen and (max-width: 1024px) {
     .aboutImg {
       display: flex;
       
@@ -36,12 +35,18 @@
       /* justify-content: center; */
       align-items: center;
     }
-
     .note-img{
-        width: 55%;
-        background-color: rgba(168, 157, 157, 0.212);
-        
-      }
-
-    
+      width: 55%;
+      background-color: rgba(168, 157, 157, 0.212);
+      
+    }
+    .img1{
+      margin-top: 10px;
+    }
+    .img2{
+      display: none;
+    }
+    .butb{
+      padding-top: 10px;
+    }
   }
