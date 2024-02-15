@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom';
-import signup from "../images/signup.gif";
+import signup from "../images/Msignup.gif";
 import '../styles/signup.css';
 export const Signup = (props) => {
   let navigate = useNavigate();
@@ -35,9 +35,9 @@ export const Signup = (props) => {
 
   return (
     <div className='container'>
-      <h2>Create an account to use IdeaSpotter</h2>
+      <h2 className='h2login'>Create an account to use IdeaSpotter</h2>
       <img className='SigninImg' src={signup} alt="Signup Form"/>
-      <div className='SigninForm'style={{"backgroundColor":"aliceblue",}}>
+      <div className='SigninForm'>
       <form  onSubmit={handleSubmit}>
         <div className="form-group">
           <label htmlFor="name">Name</label>
@@ -52,10 +52,10 @@ export const Signup = (props) => {
           <label htmlFor="password">Password</label>
           <input type="password" className="form-control" id="password" name="password" placeholder="Password" minLength={5} required onChange={onChange} />
         </div><br/>
-        <button type="submit" className="btn btn-primary button">Sign Up</button>
+        <button type="submit" className="btn btn-primary buttonn">Sign Up</button>
       </form>
       <br />
-        <p>Have an account? <Link style={{color: "#2A8387"}} to="/login" >login</Link> </p>
+        <p className='signP'>Have an account? <Link style={{color: "#2A8387"}} to="/login" >login</Link> </p>
         </div>
     </div>
   )

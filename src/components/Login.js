@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import {Link, useNavigate } from 'react-router-dom';
 import '../styles/signup.css';
-import login from '../images/login.gif';
+import login from '../images/Mlogin.gif';
 
 
 export const Login = (props) => {
@@ -37,9 +37,9 @@ export const Login = (props) => {
     }
     return (
         <div className='container'>
-            <h2>Login to continue to IdeaSpotter</h2>
+            <h2 className='h2login'>Login to continue to IdeaSpotter</h2>
             <img className='LoginImg' src={login} alt="Login Form" />
-            <div className='LoginForm' style={{"backgroundColor":"aliceblue"}}>
+            <div className='LoginForm' >
             <form onSubmit={handleSubmit}>
                 <div className="form-group">
                     <label htmlFor="email" style={{"line-height":"2"}}>Email: </label>
@@ -51,11 +51,11 @@ export const Login = (props) => {
                 </div>
                 <div className="form-check">
                 </div>
-                <button type="submit" className="btn btn-primary button" >Log in</button>
+                <button type="submit" className="btn btn-primary buttonn" >Log in</button>
                 <br/>
             </form>
             <br />
-                <p>Don't have an account? <Link style={{color: "#2A8387"}} to="/signup" >register</Link> </p>
+                <p className='loginP'>Don't have an account? <Link style={{color: "#2A8387"}} to="/signup" >register</Link> </p>
             </div>
         </div>
     )

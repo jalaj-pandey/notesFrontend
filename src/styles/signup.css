@@ -9,10 +9,11 @@
 
 .SigninImg {
     float: left;
+    margin: 30px;
     padding-left: 30px;
     padding-right: 2%;
     width: 40%;
-    height: 65vh;
+    height: 70vh;
     object-fit: contain;
 }
 
@@ -28,16 +29,25 @@
 
 .LoginImg {
     float: left;
-    margin: 40px;
-    margin-top: 50px;
-    padding-left: 50px;
-    padding-right: 40px;
-    /* padding-top: 40px; */
-    width: 35%;
-    height: 60vh;
-    object-fit: fill;
+    margin: 30px;
+    padding-left: 30px;
+    padding-right: 2%;
+    width: 40%;
+    height: 70vh;
+    object-fit: contain;
 }
 
+.buttonn{
+    background-color: #36A9AE;
+    background-image: linear-gradient(#37ADB2, #329CA0);
+    border: 1px solid #2A8387;
+    width: 20%;
+}
+.buttonn:hover,
+.buttonn:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
 
 .notesForm {
     display: grid;
@@ -73,36 +83,53 @@ div.jalaj {
 @media screen and (max-width: 600px) {
     .LoginImg {
         display: grid;
+        margin-top: -150px;
+        margin-left: -2px;
         width: 95%;
-        padding-left: 0px;
-        object-fit: fill;
+        object-fit:contain;
     }
 
     .LoginForm {
         display: grid;
+        margin-top: -230px;
         width: 100%;
         height: 60vh;
         text-align: left;
         padding: 40px 60px;
         overflow: hidden;
-
+    }
+    .buttonn{
+        width: fit-content;
+    }
+    .loginP{
+        margin-top: -140px;
+    }
+    .h2login{
+        margin-top: -30px;
     }
 
     .SigninImg {
         display: grid;
-        width: 100%;
-        padding-left: 20px;
-        object-fit: fill;
+        margin-top: -150px;
+        margin-left: -2px;
+        width: 95%;
+        object-fit:contain;
     }
 
     .SigninForm {
         display: grid;
+        margin-top: -230px;
         width: 100%;
-        height: 70vh;
+        height: 60vh;
         text-align: left;
         padding: 40px 60px;
         overflow: hidden;
     }
+
+    .signP{
+        margin-top: -60px;
+    }
+
 
     .cardImg {
         background: url('../images/notecard.png');
