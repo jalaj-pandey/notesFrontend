@@ -62,7 +62,7 @@ const About = () => {
                                 What sets Jalaj apart is his enthusiasm for practical applications of his knowledge. His ability to think critically and apply his knowledge in creative ways has enabled him to develop projects that are not just academically sound but also have practical utility.
                             </p>
                             <div className="d-flex justify-content-center mt-2">
-                                <Button className='button' component={Link} to="https://jalajpandey.netlify.app/" variant="contained" style={{ color: "White", textTransform: "none", fontFamily: "'Poppins', sans-serif", fontSize: "1.3rem" }}>More About Jalaj</Button>
+                                <Button className='button' component={Link} to="https://thejalaj.netlify.app/" variant="contained" style={{ color: "White", textTransform: "none", fontFamily: "'Poppins', sans-serif", fontSize: "1.3rem" }}>More About Jalaj</Button>
                             </div>
                         </div>
                         <div className="col-md-6 d-flex flex-column justify-content-center">
